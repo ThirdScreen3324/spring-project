@@ -1,15 +1,21 @@
 /* --- RESET --- */
-*{
+* {
 	font-family: sans-serif;
 	box-sizing: border-box;
     font-size: 18px;
 }
 
-h1{
+h1 {
     font-size: 32px;
 }
 
-img{
+img {
     width: 10%;
     height: auto;
+}
+
+@media (width < 615px) {
+    img{
+        width: 20%;
+    }
 }
