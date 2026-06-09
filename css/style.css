@@ -18,6 +18,14 @@ li p {
     margin: 0 0 12px 0;
 }
 
+b a {
+	text-decoration: none;
+}
+
+.sidenote {
+    font-size: 12px;
+}
+
 @media (width < 615px) {
     * {
         font-size: 14px;
