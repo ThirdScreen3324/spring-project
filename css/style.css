@@ -19,7 +19,16 @@ li p {
 }
 
 @media (width < 615px) {
+    * {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
     img{
         width: 20%;
     }
+    
 }
