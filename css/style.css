@@ -28,7 +28,11 @@ b a {
 
 @media (width < 615px) {
     * {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    .sidenote {
+        font-size: 10px;
     }
 
     h1 {
